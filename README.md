@@ -8,9 +8,9 @@ This repo stores the updated Baleka files from the 8 November 2022.
   a. Find max Kp and Kd from impedence control <br />
   b. Adjust BW using R-Link if needed
 2. Padding on robot
-3. Raibert Control:
-  a. redo foot detection
-  b. Update stance time correctly from .matfile run
+3. Raibert Control: <br />
+  a. redo foot detection <br />
+  b. Update stance time correctly from .matfile run <br />
   c. Update zeroing angle detection
 4. Center point on upper links
 5. Adjust CAN read and write files correctly - have a single function
