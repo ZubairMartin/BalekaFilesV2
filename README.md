@@ -4,7 +4,7 @@ This repo stores the updated Baleka files from the 8 November 2022.
 ## To Do List:
 
 ### Speedgoat
-1. Update Timestep correctly - increase it as much as possible
+1. Update Timestep correctly - increase it as much as possible \\
   a. Find max Kp and Kd from impedence control
   b. Adjust BW using R-Link if needed
 2. Padding on robot
