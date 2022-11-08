@@ -1,0 +1,15 @@
+TEST 1 - stationary:
+Setup: Kp = 50 and Kd = 5. Rest = 0
+Result: no motors should rotate. Check data inspector that all values are zero for all motors
+
+TEST 2 - velocity:
+Setup: set all Kd to 1 and M1_w = M2_w = 1 and M3_w = M4_w = -1. Rest = 0
+Result: Legs should close towards each other. Check data inspector that M3_w<0, M4_w<0, M1_w>0 and M2_w>0.
+
+TEST 3 - position:
+Setup: set all Kd to 1 and Kp to 10 and M1_q = M2_q = pi/6 and M3_q = M4_q = -pi/6. Rest = 0
+Result: Legs should close towards each other and stop. Check data inspector that M3_q = M4_q = -pi/6, M1_q = M2_q = pi/6.
+
+TEST 4 - torque:
+Setup: M1_t = M2_t = 0.5 and M3_q = M4_q = -0.5. Rest = 0
+Result: Legs should close towards each other. Check data inspector that M3_t = M4_t = -0.5, M1_t = M2_t = 0.5.
