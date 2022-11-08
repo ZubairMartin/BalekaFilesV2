@@ -1,0 +1,29 @@
+component TorqueLimit
+% Motor velocity dependent torque limit
+
+parameters
+    t_max = {24.8, 'N*m' }; % Maximum torque
+    t_rated = {8.3, 'N*m' }; % Rated torque
+    w_max = {49.7, 'rad/s' }; % Maximum speed
+    w_rated = {41.9, 'rad/s' }; % Rated speed
+end
+
+inputs
+    t_in = {0, 'N*m' } % t:left
+    w = {0, 'rad/s' } % w:right
+end
+
+outputs
+    t_out = {0, 'N*m' } % t:right
+end
+
+intermediates
+    t_upper = min(((w-w_max)*t_rated)/(w_rated-w_max), t_max); % Torque upper bound
+    t_lower = max(((w+w_max)*t_rated)/(w_rated-w_max), -t_max); % Torque lower bound
+end
+
+equations
+   t_out == max(t_lower, min(t_upper, t_in));
+end
+
+end
