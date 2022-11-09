@@ -21,3 +21,12 @@ This repo stores the updated Baleka files from the 8 November 2022.
 3. Include fasteners in model
 
 ### Pyomo
+1. Body scaling
+2. Solve using absolute angles
+3. Radau
+4. Model PD controller - to select Kp and Kd
+5. Stribeck friction
+6. Joint friction
+7. Adjust link angle limits
+8. Min torque
+9. Reduce max change in torque
