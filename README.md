@@ -30,3 +30,7 @@ This repo stores the updated Baleka files from the 8 November 2022.
 7. Adjust link angle limits
 8. Min torque
 9. Reduce max change in torque
+
+### Raibert Control
+1. Alternate walking
+2. Alternate hopping
