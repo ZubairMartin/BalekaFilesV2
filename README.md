@@ -32,6 +32,7 @@ This repo stores the updated Baleka files from the 8 November 2022.
 9. Reduce max change in torque
 10. Cost of transport
 11. Virtual constraints
+12. Get Immanuel Thesis
 
 ### Raibert Control
 1. Alternate walking
