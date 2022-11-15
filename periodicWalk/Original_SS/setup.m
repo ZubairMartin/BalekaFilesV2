@@ -1,0 +1,1 @@
+communication_rate = 500; %Hz
