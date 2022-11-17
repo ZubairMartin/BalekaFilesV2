@@ -1,0 +1,2 @@
+Test,N,TT,V_avg,loops,cost,mu
+test,100,0.8,0.7723004596657962,5,row*pen_sum + tau_sum/10,0.5
