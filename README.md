@@ -28,6 +28,7 @@ This repo stores the updated Baleka files from the 8 November 2022.
 4. Adjust link angle limits
 5. Cost of transport
 6. Stribeck friction
+7. Seeds
 
 #### On weekends
 1. Get Immanuel Thesis
