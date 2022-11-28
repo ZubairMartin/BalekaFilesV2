@@ -35,7 +35,7 @@ This repo stores the updated Baleka files from the 8 November 2022.
 3. Virtual, magnitude and direction constraints
 4. Model PD controller - to select Kp and Kd
 5. Joint friction
-6. Solve using absolute angles
+6. Solve using absolute angles (with thB and without thB)
 
 ### Raibert Control
 1. Alternate walking
