@@ -1,6 +1,20 @@
 # BalekaFilesV2
 This repo stores the updated Baleka files from the 8 November 2022.
 
+## URGENT - PYOMO
+### With th_body = 0 (fixed)
+Compare using Stacey Tuts
+using : in function constraints
+
+1. Fix friction model - friction cone
+2. Fix and understand h_sum: h[1] when tau[1] = 0 --> focus on the 
+3. Double check torque curve
+4. Scale all variables correctly
+5. Stribeck friction
+6. Absolute Angles
+7. Seeds
+
+
 ## To Do List:
 
 ### Speedgoat
