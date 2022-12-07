@@ -16,6 +16,9 @@ Notes:
 7. Increase nodes to check difference - check 0.01<hm<0.02 where hm = TT/N
 8. Raibert control v NLF
 9. Can slip if Gx>uGy
+10. Model foot deflection in pyomo
+11. compare des v act in Simscape
+12. pos = quad, vel = linear, acc = ZOH (interpolation)
 
 1. Fix friction model - friction cone
 2. Fix and understand h_sum: h[1] when tau[1] = 0 --> focus on the 
