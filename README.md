@@ -14,7 +14,7 @@ Notes:
 5. Do hop test - compare TW and GRF curve of Simscape and Pyomo
 6. Reduce Kp = 55 and Kd = 5
 7. Increase nodes to check difference - check 0.01<hm<0.02 where hm = TT/N
-8. Raibert control v NLF
+8. Raibert control v NLF (or mimic pyomo traj using raibert control to include FB)
 9. Can slip if Gx>uGy
 10. Model foot deflection in pyomo
 11. compare des v act in Simscape
