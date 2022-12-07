@@ -6,6 +6,15 @@ This repo stores the updated Baleka files from the 8 November 2022.
 Compare using Stacey Tuts
 using : in function constraints
 
+Notes: 
+1. dx = dx+ - dx- gives the actual value and sign where dx = dx+ + dx- gives the magnitude (if there's any velocity at all)
+2. h[1] is not needed as no link to model
+3. Scale the entire system (N/bodyweight)
+4. Double check everything (mass and inertias - compare Simscape and Pyomo)
+5. Do hop test - compare TW and GRF curve of Simscape and Pyomo
+6. Reduce Kp = 55 and Kd = 5
+7. Increase nodes to check difference - check 0.01<hm<0.02 where hm = TT/N
+
 1. Fix friction model - friction cone
 2. Fix and understand h_sum: h[1] when tau[1] = 0 --> focus on the 
 3. Double check torque curve
