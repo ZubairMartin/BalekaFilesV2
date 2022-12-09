@@ -1,6 +1,12 @@
 # BalekaFilesV2
 This repo stores the updated Baleka files from the 8 November 2022.
 
+## FRIDAY TODO
+1. max hop testing
+2. baseline: mu = 1, N=50
+3. Update mu, N, Kp and Kd to view differences
+
+
 ## URGENT - PYOMO
 ### With th_body = 0 (fixed)
 Compare using Stacey Tuts
