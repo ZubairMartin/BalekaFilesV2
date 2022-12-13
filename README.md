@@ -5,7 +5,10 @@ This repo stores the updated Baleka files from the 8 November 2022.
 1. max hop testing
 2. baseline: mu = 1, N=50
 3. Update mu, N, Kp and Kd to view differences
-
+4. Update periodic csv file save - remove repeated row
+5. communication rate update
+6. spline -> linear -> ZOH
+7. 
 
 ## URGENT - PYOMO
 ### With th_body = 0 (fixed)
